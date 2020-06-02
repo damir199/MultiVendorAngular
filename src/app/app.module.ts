@@ -8,6 +8,7 @@ import { DashboardComponent } from './vendor/components/dashboard/dashboard.comp
 import { LoginComponent } from './auth/shared/login/login.component';
 import { RegisterVendorComponent } from './auth/vendor/register-vendor/register-vendor.component';
 import { RegisterClientComponent } from './auth/client/register-client/register-client.component';
+import { DefaultComponent } from './layouts/default/default.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegisterClientComponent } from './auth/client/register-client/register-
     DashboardComponent,
     LoginComponent,
     RegisterVendorComponent,
-    RegisterClientComponent
+    RegisterClientComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,
