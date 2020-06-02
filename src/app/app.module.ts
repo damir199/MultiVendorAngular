@@ -9,6 +9,8 @@ import { LoginComponent } from './auth/shared/login/login.component';
 import { RegisterVendorComponent } from './auth/vendor/register-vendor/register-vendor.component';
 import { RegisterClientComponent } from './auth/client/register-client/register-client.component';
 import { DefaultComponent } from './layouts/default/default.component';
+import { HeaderComponent } from './shared/components/header/header.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DefaultComponent } from './layouts/default/default.component';
     LoginComponent,
     RegisterVendorComponent,
     RegisterClientComponent,
-    DefaultComponent
+    DefaultComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
