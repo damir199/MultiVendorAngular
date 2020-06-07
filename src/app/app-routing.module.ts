@@ -2,7 +2,6 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { DefaultComponent } from "./layouts/default/default.component";
 import { LandingComponent } from "./client/components/landing/landing.component";
-import { VendorModule } from "./vendor/vendor.module";
 
 const routes: Routes = [
   {
@@ -17,6 +16,11 @@ const routes: Routes = [
         path: "vendor",
         loadChildren: () =>
           import("./vendor/vendor.module").then((m) => m.VendorModule),
+      },
+      {
+        path: "auth",
+        loadChildren: () =>
+          import("./auth/auth.module").then((m) => m.AuthModule),
       },
     ],
   },
