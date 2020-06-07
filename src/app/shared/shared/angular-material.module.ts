@@ -9,8 +9,6 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatListModule } from "@angular/material/list";
 import { MatDialogModule } from "@angular/material/dialog";
-import { MatAutocompleteModule } from "@angular/material/autocomplete";
-import { MatChipsModule } from "@angular/material/chips";
 
 @NgModule({
   declarations: [],
@@ -25,8 +23,6 @@ import { MatChipsModule } from "@angular/material/chips";
     MatProgressSpinnerModule,
     MatCardModule,
     MatDialogModule,
-    MatChipsModule,
-    MatAutocompleteModule,
   ],
 })
 export class AngularMaterialModule {}
